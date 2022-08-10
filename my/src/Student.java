@@ -2,6 +2,19 @@ class Student {
     private String firstName, surname, group;
     private int age;
 
+    public Student(String firstName, surname, group int age)
+    {
+        this.firstName = firstName;
+        this.surname = surname;
+        this.group = group;
+        this.age = age;
+    }
+
+    public Student(Student student)
+    {
+        this = student;
+    }
+
     public String getFirstName() {
         return firstName;
     }
