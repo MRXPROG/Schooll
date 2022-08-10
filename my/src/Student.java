@@ -33,4 +33,14 @@ class Student {
     public void setAge(int age) {
         this.age = age;
     }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Student{" +
+                "firstName='" + firstName + '\'' +
+                ", surname='" + surname + '\'' +
+                ", group='" + group + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
