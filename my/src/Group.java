@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 public class Group {
-    ArrayList<Pupil> group;
+    ArrayList<Student> group;
     public Group(){
 
-        group = new ArrayList<Pupil>();
+        group = new ArrayList<Student>();
     }
 
 }
